@@ -1,0 +1,6 @@
+Se declaró el DOCTYPE en el archivo HTML ya que de esta forma los navegadores podrán interpretar el documento con el lenguaje y versión definidos.
+También se especificó la codificación de caracteres dentro de la etiqueta head, lo que le permitirá al navegador interpretar tildes y caracteres especiales, y también se agregó la etiqueta title.
+Las clases tenían nombres demasiado largos y difíciles de entender, por lo que se cambiaron por nombres más descriptivos, por ejemplo; en lugar de usar <div class=”ui-shipping-info-container js-tabs”> </div> para referirse al contenido de los tabs, se usó <div class=”Tabs-container”></div>
+En el div que contiene el id Content-1, se reemplazó la etiqueta <p></p> que era usada como un botón, por la etiqueta <button><button/> ya que esta etiqueta es semánticamente correcta a la hora de crear un botón.
+En el div con la clase “steps” de ambos tabs, se creó una lista ordenada para los pasos y los iconos con el fin de ahorrar código y evitar la “divitis” ya que anteriormente esta lista se había creado con un div para cada icono y un div para cada ítem de la lista, también se agregaba el número del ítem con una etiqueta <span></span>, lo que se puede crear más fácilmente con una lista ordenada.
+
