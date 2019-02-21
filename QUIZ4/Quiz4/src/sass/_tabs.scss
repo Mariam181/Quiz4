@@ -1,0 +1,25 @@
+.Tabs-container {
+    width: 490px;
+}
+
+.Tabs-titles {
+    list-style: none;
+    display: flex;
+}
+
+.Tabs-item {
+    position: relative;
+}
+
+.Panels {
+    position: relative;
+    position: absolute;
+    left: -1000%;
+}
+
+.Active {
+    position: relative;
+    left: 0;
+    
+}
+

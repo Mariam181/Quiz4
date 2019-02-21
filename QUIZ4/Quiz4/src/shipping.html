@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <div class="Container">
@@ -15,24 +15,21 @@
         </p>
 
         <div class="Tabs-container">
-            <ul class="Tabs-titles">
+            <ul class="Tabs-titles" id="tabs">
                 <li class="Tabs-item Active">
-                    <a href="#Content-1" class="Tab1">
-                        <b class="Tab1-title">Flat Rate UPS Label</b>
-                        <span class="Tab-subtitle">You Pay: $6.99</span>
-                    </a>
+                    <b class="Tab1-title">Flat Rate UPS Label</b>
+                    <span class="Tab-subtitle">You Pay: $6.99</span>
                 </li>
 
                 <li class="Tabs-item">
-                    <a href="#Content-2" class="Tab2">
-                        <b class="Tab2-title">Ship It Yourself</b>
-                        <span class="Tab-subtitle">You Pay: Full Price from Your Preferred Carrier</span>
-                    </a>
+                    <b class="Tab2-title">Ship It Yourself</b> <br>
+                    <span class="Tab-subtitle">You Pay: Full Price from Your Preferred Carrier</span>
+                    
                 </li>
             </ul>
 
             <!--Tab 1--->
-            <div id="Content-1">
+            <div id="Content-1" class="Panels Active">
                 <div class="">
 
                 </div>
@@ -49,15 +46,15 @@
                 <div class="steps">
                     <ol>
                         <li class="step1">
-                            <img src="img/icon1.jpg" alt="">
+                            <!--<img src="img/icon1.jpg" alt="">-->
                             <p>Package your return in a box</p>
                         </li>
                         <li class="step2">
-                            <img src="img/icon2.jpg" alt="">
+                            <!--<img src="img/icon2.jpg" alt="">-->
                             <p>Attach UPS label to box</p>
                         </li>
                         <li class="step3">
-                            <img src="img/icon3.jpg" alt="">
+                            <!--<img src="img/icon3.jpg" alt="">-->
                             <p>Drop package off at a <a href="https://www.ups.com/dropoff" target="_blank">UPS Location</a></p>
                         </li>
                     </ol>
@@ -66,19 +63,19 @@
             </div>
 
             <!--Tab 2-->
-            <div id="Content-2">
+            <div id="Content-2" class="Panels">
                 <div class="steps">
                     <ol>
                         <li class="step1">
-                            <img src="img/icon1.jpg" alt="">
+                            <!--<img src="img/icon1.jpg" alt="">-->
                             <p>Package your return in a box</p>
                         </li>
                         <li class="step2">
-                            <img src="img/icon2.jpg" alt="">
+                            <!--<img src="img/icon2.jpg" alt="">-->
                             <p>Write Return Number on box</p>
                         </li>
                         <li class="step3">
-                            <img src="img/icon3.jpg" alt="">
+                            <!--<img src="img/icon3.jpg" alt="">-->
                             <p>Mail to <span class="shipping-site-url">competitivecyclist.com</span></p>
                         </li>
                     </ol>
@@ -108,5 +105,7 @@
             </div>
         </div>
     </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
